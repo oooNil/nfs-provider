@@ -11,7 +11,7 @@ spec:
     bucket: nfs-snapshots
     # A prefix inside the volume that contains the backups 
     # useful for migrating from a filesystem created by Minio
-    prefix: /velero
+    prefix: velero
   config:
     # Path and server on share
     path: /
